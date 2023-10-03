@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2343f58fbe.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-imp">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Neha</span> Anil<br> From Earth</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------about section----- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="abtimg.png" alt="abtimge">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle-please">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quisquam id corporis sit officiis
+                        perferendis ad debitis officia vitae dolores quasi, <br>tempore ducimus? Dolores excepturi
+                        assumenda repudiandae at minima vitae.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links-para active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links-para" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links-para" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-texttiles-content active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desgining Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Desgining Web/App Interfaces</li>
+                            <li><span>App Development</span><br>Building App/iOS Apps</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-texttiles-content" id="experience">
+                        <ul>
+                            <li><span>1 Years 3 Months </span><br>Experience in UI/UX designing</li>
+                            <li><span>13-may(2021)-sept(2023)</span><br>Freshokit India Pvt Ltd</li>
+                            <li><span>Sept(2023)-Current</span><br>Growthali</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-texttiles-content" id="education">
+                        <ul>
+                            <li><span>Higher Secondary Schools (Bihar)</span><br>BSEB Board</li>
+                            <li><span>Graduation (B.tech)</span><br>JNU</li>
+                            <li><span>Post-Graduation (M.tech)</span><br>JNU</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- -------------------services-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle-please">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>
+                        Web Design
+                    </h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Quasi, unde repudiandae dolorum
+                        sequi id quos, perferendis omnis voluptatibus expedita distinctio eaque quo recusandae
+                        temporibus ut dicta, possimus iste nostrum ipsa!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>
+                        UI/UX Design
+                    </h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Quasi, unde repudiandae dolorum
+                        sequi id quos, perferendis omnis voluptatibus expedita distinctio eaque quo recusandae
+                        temporibus ut dicta, possimus iste nostrum ipsa!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>
+                        App Design
+                    </h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Quasi, unde repudiandae dolorum
+                        sequi id quos, perferendis omnis voluptatibus expedita distinctio eaque quo recusandae
+                        temporibus ut dicta, possimus iste nostrum ipsa!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------portfolio------------ -->
+    <div id="portfolio ">
+        <div class="container">
+            <h1 class="subtitle-please">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="service1.png" alt="service1">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world like me<br>
+                            Download it from the Google play store</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="service2.png" alt="service2">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world like me<br>
+                            Download it from the Google play store</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="service3.png" alt="service3">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world like me<br>
+                            Download it from the Google play store</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ----------contact us-------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+
+
+                    </div>
+                    <a href="NEHA ANIL RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright @nehanil<i class="fa-solid fa-heart"></i> portfolio</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links-para");
+        var tabtexttilescontent = document.getElementsByClassName("tab-texttiles-content");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabtexttilecontent of tabtexttilescontent) {
+                tabtexttilecontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            var active_tab = document.getElementById(tabname);
+            active_tab.classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyOkjdjHCQGeT-u9NwvURC-rAXJTkZIgllPajSFTC-vIF6vM4LgK0Ki2CZNxo9A96hcfQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(
+                        function () {
+                            msg.innerHTML = ""
+                        }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
